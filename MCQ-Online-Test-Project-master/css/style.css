@@ -1,0 +1,96 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+body
+{
+  background-color: #19A7CE;
+ font-family:  inter, sans-serif;
+  
+ padding: 0px;
+ margin: 0px;
+}
+h1{
+  margin: 0;
+}
+.heading{
+  color: #146C94;
+  font-size: 64px;
+  font-weight: 600;
+}
+nav{
+  height: 50px;
+  background-color: #AFD3E2;
+}
+#header
+{
+  background-color: #F6F1F1;
+ /* background-color:rgb(59 130 246 / 50%); */
+ text-align: center;
+ margin: 0px;
+ padding-top: 5px;
+ color:white;
+}
+nav ul{
+  text-align: center;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* column-gap: space-evenly; */
+  /* flex-direction: column; */
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    /* background-color: #333; */
+  }
+  li {
+
+    /* justify-self: center; */
+    /* text-align: center; */
+    width: 80%;
+    /* float: center; */
+  }
+  li a {
+    display: block;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: yellow;
+  }
+/* #nav
+{
+ line-height:30px;
+ background-color:rgb(12, 168, 25);
+ width:200px;
+  min-height:500px;
+ float:left;
+ padding:10px;
+}
+#nav a
+{
+ color:white;
+}
+#section
+{
+ float:left;
+ width:750px;
+ padding:10px;
+ min-height:500px;
+} */
+.content{
+  /* text-align: center; */
+  padding: 30px;
+  /* background-color: #19A7CE; */
+  /* top: 0; */
+  background: url('../images/Photo.jpg');
+  filter: blur(1px) brightness(0.5);
+}
+.text{
+  filter: blur(0px) ;
+  /* background-color: ; */
+}
